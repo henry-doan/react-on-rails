@@ -18,6 +18,30 @@ class App extends Component {
       })
   }
 
+  /*
+
+    Initial Start, render first time
+      componentDidMount
+      *componentWillMount
+      render
+
+    State changes
+      shouldComponentUpdate()
+      *componentWillUpdate()
+      render()
+      componentDidUpdate()
+
+    Props changes
+      *componentWillReceiveProps()
+      shouldComponentReceiveProps()
+      *componentWillUpdate()
+      render()
+      componentDidUpdate()
+      
+    unmounting
+      *componentWillUnMount()
+  */
+
   addItem = (name) => {
     // add the todo item to the database
     // add it to state 
